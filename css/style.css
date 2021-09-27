@@ -51,7 +51,7 @@ body .call-to-action{
     font-size: 16px;
 }
 
-.cta-header h1{
+.cta-header h3{
     color: hsl(204, 43%, 93%);
 }
 
@@ -95,7 +95,7 @@ body .call-to-action{
     padding: 20px 20px;
 }
 
-.ctwo h1{
+.ctwo h4{
     color: hsl(204, 43%, 93%);   
 }
 
@@ -146,7 +146,7 @@ body .call-to-action{
         font-size: 16px;
     }
 
-    .cta-header h1{
+    .cta-header h3{
         color: white;
     }
 
