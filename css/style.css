@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+
+/*Card Section*/
+
+.card{
+    margin: 70px auto 20px;  
+    border-radius: 10px;  
+    overflow: hidden;
+    width: 325px;    
+}
+
+
+.content {
+    background-color: white;
+    padding: 30px 20px 40px;
+}
+
+/*Content Header section*/
+.content-header h1{
+    color:hsl(179, 62%, 43%);
+    font-size: 21.3px;
+}
+
+.content-header h2{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 0;
+    color: hsl(71, 73%, 54%);
+}
+
+.content p{
+    font-size: 14px;
+    line-height: 2;
+    font-weight:700;
+    color: hsl(218, 22%, 67%);
+}
+
+/*Call to Action section*/
+body .call-to-action{
+    background-color: hsl(179, 62%, 43%);
+    mix-blend-mode: multiply;
+    padding: 25px 20px;
+    font-size: 16px;
+}
+
+.cta-header h1{
+    color: hsl(204, 43%, 93%);
+}
+
+
+.bill{
+    display: flex;
+    align-items: center;
+    gap: 0 13px;
+    padding: 22px 0 8px;
+}
+
+.digit{
+    font-size: 33px;
+    font-weight: 700;
+    color: white;
+}
+
+.month{
+    color: hsl(204, 43%, 93%);
+}
+
+.call-to-action p {
+    color: hsl(204, 43%, 93%);
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 30px 0 0;
+    padding: 15px 0;
+    background-color:hsl(71, 73%, 54%);
+    color: white;
+    border-radius:5px;
+    text-decoration: none;
+}
+
+/*Content two section*/
+.content-two{
+    background-color:hsl(179, 62%, 43%);
+    padding: 20px 20px;
+}
+
+.ctwo h1{
+    color: hsl(204, 43%, 93%);   
+}
+
+.content-two p{
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 1.5;
+    letter-spacing: 3;
+    width: 63.668%;
+    color: hsl(204, 43%, 93%);
+}
+
+/*Desktop View*/
+
+@media (min-width: 1000px){
+       
+    .card{
+        margin: 100px auto 20px;  
+        width: 680px; 
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+    }
+   
+    /*Content Header section*/
+    .content{
+        grid-column: 1/span 6;
+        padding: 50px 40px 30px;
+    }
+
+    .content-header h1{
+        font-size: 27px;
+    }
+
+    .content-header h2{
+        font-size: 20px;
+        padding: 20px 0;   
+    }
+
+    .content p{
+        font-size: 16px; 
+    
+    }
+    
+    /*Call to Action section*/
+
+    body .call-to-action{
+        padding: 40px 40px;
+        font-size: 16px;
+    }
+
+    .cta-header h1{
+        color: white;
+    }
+
+    .bill .digit{
+        font-size: 43px;
+        color: white
+    }
+
+    .call-to-action{
+        grid-column: 1/span 3;
+    }
+
+    .call-to-action p {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    /*Content two section*/
+
+    .content-two{
+        grid-column: 4/span 3;
+        padding: 40px 40px;
+    }
+
+    .content-two p{
+        font-size: 16px;
+        width: 85%;
+    }
+}
