@@ -113,7 +113,7 @@ body .call-to-action{
 @media (min-width: 1000px){
        
     .card{
-        margin: 100px auto 20px;  
+        margin: 140px auto 20px;  
         width: 680px; 
         display: grid;
         grid-template-columns: repeat(6,1fr);
